@@ -1671,6 +1671,7 @@ ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=1):
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (112.3ms)
+<<<<<<< HEAD
 
 
 Started GET "/posts" for 98.155.218.104 at 2018-09-20 00:12:40 +0000
@@ -1811,3 +1812,5 @@ Processing by PostsController#body as */*
   [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 10]]
   Rendered text template (0.0ms)
 Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+=======
+>>>>>>> bc54944cbbe2a8e5b67c7735c36b359703a19020
