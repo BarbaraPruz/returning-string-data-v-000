@@ -1345,3 +1345,9 @@ Started PATCH "/posts/1" for 127.0.0.1 at 2018-09-20 00:28:33 +0000
 Started GET "/posts/1/edit" for 127.0.0.1 at 2018-09-20 00:32:12 +0000
 Processing by PostsController#edit as HTML
   Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/_form.html.erb (21.5ms)
+  Rendered posts/edit.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 331ms (Views: 308.0ms | ActiveRecord: 0.2ms)
+Started PATCH "/posts/1" for 127.0.0.1 at 2018-09-20 00:32:12 +0000
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
